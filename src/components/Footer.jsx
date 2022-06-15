@@ -4,8 +4,8 @@ function footer(){
     return  <footer>
     <div class="footer-content">
                 <div class="container">
-                    <div class="logo">
-                        <img src="" alt="logo" />
+                    <div className="footerLogo">
+               
                     </div>
 
                     <div class="down-below">
