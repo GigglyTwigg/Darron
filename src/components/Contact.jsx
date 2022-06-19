@@ -1,17 +1,11 @@
 
 import React from 'react';
-  
-const Contact = () => {
+import ContactForm from "./contactForm";
+
+function Contact(){
   return (
-    <div
-      style={{
-        textAlign:"center",
-        height: '100vh'
-      }}
-    >
-      <h1>Heres my contacts</h1>
-    </div>
+<ContactForm />
   );
 };
-  
+
 export default Contact;

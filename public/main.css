@@ -24,6 +24,15 @@
   font-family: 'Oxygen', sans-serif;
 }
 
+.contactme {
+  text-align: center;
+  margin-left: 15%;
+  font-family: 'Patrick Hand', cursive;
+  background-color:  #FCF9C6;
+width: 30%;
+padding-top: 20%;
+}
+
 .codDev {
   height: 1000px;
   margin-bottom: 50px;
@@ -315,6 +324,21 @@ footer .down-below {
   margin: 0%;
 }
 
+.frameworkBod{
+  background-color: blue;
+
+}
+
+.frameworkBod2{
+  background-color:lightblue;
+
+}
+
+.devsum{
+  text-align: left;
+  font-family: 'Patrick Hand', cursive;
+}
+
 .footerLogo {
   background-image: url("logo2.png");
   background-repeat: no-repeat;
@@ -324,4 +348,8 @@ footer .down-below {
   display: block;
   z-index: 5;
   margin-left: 40%;
+}
+
+.devBody{
+  text-align:center;
 }
