@@ -324,19 +324,18 @@ footer .down-below {
   margin: 0%;
 }
 
-.frameworkBod{
-  background-color: blue;
 
-}
 
-.frameworkBod2{
-  background-color:lightblue;
-
-}
 
 .devsum{
   text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   font-family: 'Patrick Hand', cursive;
+  background-color: #FFE6E6;
+  font-size: 1.2em;
 }
 
 .footerLogo {
@@ -352,4 +351,56 @@ footer .down-below {
 
 .devBody{
   text-align:center;
+}
+
+.devBody h1{
+  text-align:left;
+  padding: 5%;
+  color:#354259;
+}
+.gamedev{
+  padding: 8%;
+}
+.gamedev h3{
+  padding: 5%;
+  background-color: #FFE6E6;
+}
+/* Make sure that padding behaves as expected */
+/* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skillbar .container {
+padding: 2%;
+  width: 100%; /* Full width */
+ /* Grey background */
+}
+
+.frameworkBod{
+  background-color:#DAEAF1;
+  padding-top: 20%;
+
+}
+
+.frameworkBod2{
+    background-color: #C6DCE4;
+    padding: 2%;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.C {width: 92%; background-color: orange;}
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.CSS {width: 94%; background-color: #2196F3;} /* Blue */
+.JavaScript {width: 75%; background-color: #f44336;} /* Red */
+.ReactJS {width: 80%; background-color: #808080;} /* Dark Grey */
+.NodeJS {width: 73%; background-color:pink;}
+.Python {width: 45%; background-color:lightgreen;}\
+.Bootstrap {width: 90%; background-color:lightblue;}
+.Unity {width: 95%; background-color:Black;}
+.SQL{width: 50%; background-color:lightgrey;}
+.MongoDB{width: 55%; background-color:yellow;}
 }

@@ -10,13 +10,13 @@ const content=[{
 
 },{
 title:"Dev",
-content:"I have a passion to learn and gain experience in development I love watching people enjoy using my app."
+content:"I have a passion to learn and gain experience.I enjoy the challenges and problems I face in my daily codeing and developing, I enjoy the problem solving and constant challenges and new expreinces I find myself having in the Development world.\nI love watching people enjoy using my app."
 
 },{
   title:"GameDevelopment",
   engine:"Unity",
   style:"2D,3D",
-  about:"I have always loved games ever since I was a kid, I have always wanted to make my own worlds and give people an experience through my games.\n Making games is my true passion the reason I love developing and coding so much.",
+  about:"I have always loved games ever since I was a child, I have always wanted to make my own worlds and give people an experience through my games.\n Making games is my true passion the reason I love developing and coding so much. I have more fun developing games than playing...Sometimes.",
   accounts:"itch.io"
 },
 {

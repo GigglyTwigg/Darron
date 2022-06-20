@@ -1,5 +1,5 @@
 import  {useState} from 'react';
-
+import CV from "./CV"
 
 const NavBar = () => {
 
@@ -25,6 +25,7 @@ console.log(isNavExpanded);
         <li class="nav-item">
           <a class="nav-link " href="Contact">Contact</a>
         </li>
+        <CV />
       </ul>
 
     </div>

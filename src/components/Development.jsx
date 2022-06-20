@@ -7,8 +7,17 @@ import content from "./content";
 const Development = () => {
 const[selection, setSelection]=React.useState("about");
 
+function CreateSkillBar(prop){
+  let skillbarClass=[prop.skill,"skills", "C"];
+  skillbarClass=skillbarClass.join(" ");
+  return <div class="skillbar container">
+    <p>{prop.skill}</p>
+    <div className={skillbarClass}>{prop.perc}</div>
+  </div>
+}
 
 function CreateList(items){
+
   return <li> {items}</li>
 }
   return (
@@ -27,11 +36,22 @@ function CreateList(items){
       </div>
 
       <div className="col-md-6  frameworkBod2">
-            <h3>{content[1].title}</h3>
-          {content[1].lang.map(CreateList)}
+
+<CreateSkillBar skill="html" perc="90%" />
+<CreateSkillBar skill="CSS" perc="94%" />
+<CreateSkillBar skill="ReactJS" perc="80%" />
+<CreateSkillBar skill="C#" perc="92%" />
+<CreateSkillBar skill="SQL" perc="50%" />
+<CreateSkillBar skill="MongoDB" perc="55%" />
+<CreateSkillBar skill="NodeJS" perc="73%" />
+<CreateSkillBar skill="Bootstrap" perc="90%" />
+<CreateSkillBar skill="JavaScript" perc="75%" />
+<CreateSkillBar skill="Python" perc="45%" />
+<CreateSkillBar skill="Unity" perc="95%" />
+
             </div>
   </container>
-            <div >
+            <div className="gamedev">
                 <h3>{content[3].title}</h3>
                 <p> {content[3].about}  </p>
 
