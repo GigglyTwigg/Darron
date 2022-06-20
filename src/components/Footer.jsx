@@ -1,11 +1,14 @@
 import React from 'react';
 
 function footer(){
+
+  let d = new Date();
+  const dyear=d.getFullYear();
     return  <footer>
     <div class="footer-content">
                 <div class="container">
                     <div className="footerLogo">
-               
+
                     </div>
 
                     <div class="down-below">
@@ -22,7 +25,7 @@ function footer(){
                         </ul>
 
                         <div class="info">
-                            <p>© 2022  darronmgordon@gmail.com🍄🍄🍄</p>
+                            <p>© {dyear}  darronmgordon@gmail.com🍄🍄🍄</p>
                         </div>
 
 
@@ -33,7 +36,7 @@ function footer(){
 
 
     </footer>
-    
+
 }
 
 export default footer;

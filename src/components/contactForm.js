@@ -217,15 +217,13 @@ export const ContactForm = () => {
       </form>
 
       </div>
-      <div className="col-md-6 contactme">
+      <div className="col-md-6 ls-12 contactme">
       <div className="contact-info h-100" >
-
-      <a href="https://www.google.com/maps" target="_blank"></a>
       </div>
       </div>
       </div>
 
-      <div className="contactme">
+      <div className="contactme1 contactme ">
             <h3>Or contact me:</h3>
       <p>Email: darronmgordon@gmail.com </p>
       </div>
