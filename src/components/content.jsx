@@ -15,7 +15,7 @@ content:"I have a passion to learn and gain experience.I enjoy the challenges an
 },{
   title:"GameDevelopment",
   engine:"Unity",
-  style:"2D,3D",
+  style:"2D & 3D",
   about:"I have always loved games ever since I was a child, I have always wanted to make my own worlds and give people an experience through my games.\n Making games is my true passion the reason I love developing and coding so much. I have more fun developing games than playing...Sometimes.",
   accounts:"itch.io"
 },

@@ -17,6 +17,9 @@ console.log(isNavExpanded);
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="GameDevelopment">Game-Development</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="Development">Development</a>
         </li>
         <li class="nav-item">
