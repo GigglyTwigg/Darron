@@ -1,3 +1,9 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
 .heading {
   position: absolute;
   display: inline;
@@ -32,18 +38,7 @@
 width: 30%;
 padding-top: 20%;
 }
-@media (max-width: 1000px){
-  .contactme1{
-    width: 100%;
-    height: 500px;
-margin:5%;
-    }
 
-    .content{
-      height: 1750px;
-    }
-
-}
 
 
 .codDev {
@@ -337,6 +332,123 @@ footer .down-below {
   margin: 0%;
 }
 
+hr{
+border-top: 10px dotted ;
+margin: 0;
+}
+
+/*////////////////////////////////////////////////////Game Development Page Style////////////////////////////////////////////////////////////////*/
+
+.gameDev-Container{
+
+}
+
+.slideContainer{
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+
+}
+
+.slide > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  height:60vh;
+}
+
+.slide span{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background: rgba(141, 174, 224, 0.5);
+  text-align: center;
+  margin-top: 500px;
+}
+
+.skillsPanel{
+padding: 10%;
+}
+
+.skillsPanel .skillsBar{
+  padding-top: 20%;
+}
+
+.skillsPanel ul{
+  padding-bottom: 20%;
+}
+
+.skillsPanel .skillbar{
+padding-bottom: 20px;
+}
+
+.skillsPanel hr{
+  width: 25%;
+  border-top: 10px dotted black;
+margin-left: 30%;
+}
+
+.gameDevSidePannel{
+  display: inline-block;
+  position: fixed;
+  background-color: #F55353;
+  width:15%;
+  height:80%;
+}
+
+.gameDevSidePannel h4{
+  padding-top: 20%;
+  padding-bottom: 2%;
+}
+
+.gameDevAboutRight
+{
+  background-color:#FF8D29 ;
+  width: 50%;
+  margin:5% 25%;
+
+}
+
+
+.gameDevSlider
+{
+  display: inline-block;
+  width: 900px;
+  height: 400px;
+position: absolute;
+vertical-align: top;
+margin-left: 30%;
+
+}
+
+.gameDevAbout hr{
+  width:5%;
+  border-top: 10px dotted #541690;
+  margin-top: 50px;
+  margin-left: 49%;
+}
+
+
+.gameDevBody {
+background-color: #FFCD38;
+  margin: 0 15%;
+
+}
+
+.gameDevBody h1{
+  text-align: center;
+  padding: 2% 0;
+}
+
+.Level-Design {width: 65%; background-color:lightgreen;}
+.Game-Mechanics{width: 90%; background-color:lightblue;}
+.Sound{width: 24%; background-color:lightgrey;}
+.Net {width: 72%; background-color:#2196F3;}
 
 
 
@@ -371,17 +483,8 @@ footer .down-below {
   padding: 5%;
   color:#354259;
 }
-.gamedev{
-  padding: 8%;
-}
-.gamedev h3{
-  padding: 5%;
-  background-color: #FFE6E6;
-}
-/* Make sure that padding behaves as expected */
-/* {box-sizing:border-box}
 
-/* Container for skill bars */
+
 .skillbar .container {
 padding: 2%;
   width: 100%; /* Full width */
@@ -399,28 +502,14 @@ padding: 2%;
     padding: 2%;
 }
 
-@media(max-width:1000px){
-
-
-       footer .down-below {
-        border-radius: 50%;
-        background-color: black;
-        display: block;
-        position: absolute;
-        top: 50%;
-margin-right: 1%;
-
-        width: 140%;
-        height: 100%;
-      }
-}
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
   color: white; /* White text color */
 }
+
 .C {width: 92%; background-color: orange;}
 .html {width: 90%; background-color: #04AA6D;} /* Green */
 .CSS {width: 94%; background-color: #2196F3;} /* Blue */
@@ -432,4 +521,232 @@ margin-right: 1%;
 .Unity {width: 95%; background-color:Black;}
 .SQL{width: 50%; background-color:lightgrey;}
 .MongoDB{width: 55%; background-color:#C7D36F;}
+}
+
+@media(max-width:1000px){
+
+
+       footer .down-below {
+        border-radius: 50%;
+        background-color: black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-right: 1%;
+        width: 140%;
+        height: 100%;
+      }
+
+
+        .contactme1{
+          width: 100%;
+          height: 500px;
+          margin:5%;
+          }
+
+          .content{
+            height: 1750px;
+          }
+
+
+}
+
+
+@media(max-width: 1200px){
+  .gameDevAbout
+  {
+    display: inline-block;
+    width: 850px;
+    height: 400px;
+  position: relative;
+  vertical-align: top;
+  margin:10% 0% 20% 6%;
+
+  }
+
+
+  .slide > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    height: 20vh;
+  }
+
+  .slide span{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background: rgba(141, 174, 224, 0.5);
+    text-align: center;
+  }
+
+
+  .gameDevAboutRight
+  {
+    font-size: 2em;
+    display: inline-block;
+    background-color: grey;
+    width: 60%;
+    position: relative;
+    margin-left: 370px;
+    top: -1780px;
+
+  }
+
+  .gameDevSidePannel{
+    display: inline-block;
+    position: relative;
+    left:0;
+    background-color: red;
+    width:35%;
+font-size: 2em;
+bottom:50px;
+padding-bottom: 100px;
+  }
+
+
+  .gameDevSidePannel h4{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 1.5em;
+  }
+
+  .gameDevBody{
+  }
+
+
+.gameDevBody h1{
+  font-size: 3em;
+  margin-left: 25%;
+}
+
+}
+
+.Game{
+  background-image: url("Game.png");
+}
+.Game1{
+  background-image: url("Game1.png");
+}
+.Game2{
+  background-image: url("Game2.png");
+}
+.Game3{
+  background-image: url("Game3.png");
+}
+.Game4{
+  background-image: url("Game4.png");
+}
+.Game5{
+  background-image: url("Game5.png");
+}
+.Game6{
+  background-image: url("Game6.png");
+}
+.Game7{
+  background-image: url("Game7.png");
+}
+.Game8{
+  background-image: url("Game8.png");
+}
+.Game9{
+  background-image: url("Game9.png");
+}
+.Game10{
+  background-image: url("Game10.png");
+}
+.Game11{
+  background-image: url("Game11.png");
+}
+.Game12{
+  background-image: url("Game12.png");
+}
+
+
+/*/////////////////////////////Grid///////////////*/
+
+.grid-box{
+background-color: lightgrey;
+box-sizing: border-box;
+  width: 100%;
+}
+
+
+.three-images{
+display: inline-block;
+width: 30%;
+margin: 1%;
+margin-left: 2%;
+}
+
+.three-image{
+border-radius: 100%;
+margin: 5%;
+margin-left: 35%;
+}
+
+
+.imgone{
+  width: 100px;
+  height: 100px;
+background-color: red;
+
+}
+.imgtwo{
+
+    width: 100px;
+    height: 100px;
+  background-color: blue;
+}
+.imgthree{
+
+    width: 100px;
+    height: 100px;
+  background-color: green;
+
+}
+
+
+.disc{
+background-color: #FF8D29;
+width:100%;
+box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+vertical-align: middle;
+border-radius: 2%;
+
+}
+
+.disc h2{
+  text-align: center;
+}
+.disc h3{
+  text-align: center;
+}
+.disc li{
+  margin-right: 60px;
+  list-style: none;
+  text-align: center;
+}
+
+.imgone{
+
+}
+.discOne{
+
+}
+.imgtwo{
+
+}
+.disctwo{
+
+}
+.imgthree{
+
+}
+.discthree{
+
 }

@@ -1,64 +1,86 @@
 
 import React from 'react';
 import content from "./content";
+import Slider from "./GameDevSlideShow"
+import SidePanel from "./sideBar"
 
 
 
-const GameDevelopment = () => {
-const[selection, setSelection]=React.useState("about");
 
-function CreateSkillBar(prop){
-  let skillbarClass=[prop.skill,"skills", "C"];
-  skillbarClass=skillbarClass.join(" ");
-  return <div class="skillbar container">
-    <p>{prop.skill}</p>
-    <div className={skillbarClass}>{prop.perc}</div>
-  </div>
-}
+function GameDevelopment() {
 
-function CreateList(items){
-
-  return <li> {items}</li>
-}
   return (
-    <div className="devBody">
+    //Top Heading
+    <div className="gameDev-Container">
+    <SidePanel />
+    <div className="gameDevBody">
       <h1>Game Development.</h1>
-      <div className="devSumm">
+
+      <div className="gameDevAbout">
+        <Slider/>
+      <hr />
       </div>
-        <section>
-      <div >
-          <p className="devsum"> {content[3].content}  </p>
-      </div>
-      <container className="row framework">
-<div className="col-md-6  frameworkBod">
-      <h3>{content[1].title}</h3>
-    {content[1].lang.map(CreateList)}
+      <div className="gameDevAboutRight">
+       <p>{content[3].profile}</p>
+        <p>  {content[3].about}</p>
+
       </div>
 
-      <div className="col-md-6  frameworkBod2">
-      <CreateSkillBar skill="Unity" perc="95%" />
-      <CreateSkillBar skill="C#.net" perc="92%" />
-      <CreateSkillBar skill="JavaScript" perc="75%" />
-<CreateSkillBar skill="html" perc="90%" />
-<CreateSkillBar skill="CSS" perc="94%" />
-<CreateSkillBar skill="ReactJS" perc="70%" />
-<CreateSkillBar skill="Python" perc="45%" />
+<div className="grid-box">
 
-            </div>
-  </container>
-            <div className="gamedev">
-                <h3>{content[3].title}</h3>
-                <p> {content[3].about}  </p>
+<div className="three-images ">
 
-                <div>
-                <p>Check out my games and ideas. </p>
-               <a href = "link"> {content[3].accounts} </a>
-                </div>
-            </div>
+<div className=" imgone three-image">
 
-      </section>
+</div>
+
+<div className="disc discOne">
+
+<h2>Codeing</h2>
+<h3>Frameworks</h3>
+<ul>
+<li>C#/.net</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+</div>
+</div>
+
+<div className="three-images ">
+
+<div className="imgtwo three-image">
+
+</div>
+<div className="disc disctwo">
+<h2>Codeing</h2>
+<h3>Frameworks</h3>
+<ul>
+<li>C#/.net</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+</div>
+</div>
+
+<div className="three-images ">
+<div className=" imgthree three-image">
+
+</div>
+<div className="disc discthree">
+<h2>Codeing</h2>
+<h3>Frameworks</h3>
+<ul>
+<li>C#/.net</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+</div>
+</div>
+
+</div>
 
     </div>
+      </div>
   );
 };
 
