@@ -41,8 +41,10 @@ function SidePanel(){
 <CreateSkillBar skill="Level-Design" perc="65%" />
 <CreateSkillBar skill="Sound" perc="15%" />
 </div>
-</div>
+<hr />
+<div className="linka"><h4 ><a href="https://gigglytwigg.itch.io/">ITCH.IO</a></h4></div>
 
+</div>
 </div>
 );
 }
