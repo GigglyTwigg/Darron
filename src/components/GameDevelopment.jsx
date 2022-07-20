@@ -26,7 +26,6 @@ function GameDevelopment() {
       </div>
 
       <GameDevRef />
-
       <GamePreviews />
     </div>
       </div>

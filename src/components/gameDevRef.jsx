@@ -62,10 +62,11 @@ return (<div className="grid-box-container">
 <h4>My main love is the codeing and mechanics but that does not mean I have any less intrest or passion in everything else from 3D modeling to animation, I am here to learn and I will impress</h4>
 <h4>Teach me to code and I will code you Apps, teach me to animate and I will make you a Movie, teach it all to me and I will make you a Master Piece GAME!!!</h4>
 </div>
-<hr />
 <h3 className="pg-link">Check out my projects or my latest Game-Jam's.</h3>
 <div className="linkz"><h4 ><a href="https://gigglytwigg.itch.io/">ITCH.IO</a></h4></div>
+<hr />
 </div>
+
 </div>
 );}
 
