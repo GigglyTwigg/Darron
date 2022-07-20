@@ -7,6 +7,12 @@ function GamePreviews(){
 
   return(<div>
 <div className="GP_Main">
+<CreatePreviewBox
+name="Prepare2Die"
+cssName="p2d"
+link="https://phatjesuslive.itch.io/prepare-2-die"
+
+/>
 
 <CreatePreviewBox
 name="Franko's Hat"
@@ -29,14 +35,14 @@ link="https://gigglytwigg.itch.io/RFR"
 <CreatePreviewBox
 name="Escape From Anxi"
 cssName="anxi"
-link="https://gigglytwigg.itch.io/Anxi"
+link="https://gigglytwigg.itch.io/runfromanxi"
 
 />
 
 <CreatePreviewBox
 name="Life-On"
 cssName="life"
-link="https://gigglytwigg.itch.io/Life-Of"
+link="https://gigglytwigg.itch.io/lifeof"
 
 />
 

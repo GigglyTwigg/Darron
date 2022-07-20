@@ -315,7 +315,9 @@ h4 {
 footer {
   fontFamily: 'Patrick Hand';
   color: white;
-  background-color: dimgray;
+  background-image: url("AwesomeHeaderWBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: .5%;
   position: relative;
   height: 20vh;
@@ -344,9 +346,17 @@ margin: 0;
 }
 
 /*////////////////////////////////////////////////////Game Development Page Style////////////////////////////////////////////////////////////////*/
-
+.gameDevImg{
+  background-image: url("GameDeveloperHeader.jpg");
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .gameDevHeading h3{
-  margin: 2% 10%;
+  margin: 5% 10%;
+  color: white;
 }
 .gameDevHeading a{
   color: grey;
@@ -438,11 +448,11 @@ padding-bottom: 10%;
 
 .gameDevAboutRight
 {
-  background-color:white;
+  background-color:black;
   width: 90%;
-  margin:5% 5%;
+  margin:5% 5% 0 5%;
   padding: 5vh 2vh;
-color: black;
+color: white;
 border-radius: 2%;
 }
 
@@ -485,8 +495,9 @@ border-radius: 2%;
 
 
 .gameDevBody {
-background-color: #2;
+background-color: black;
   margin: 0 15% 0 15%;
+
 
 
 }
@@ -636,14 +647,17 @@ padding: 2%;
   {
     font-size: 1.5em;
     background-color: white;
-    width: 90%;
-margin: auto;
+    width: 50%;
+
+margin-bottom: 0;
+padding-bottom: 0;
 
   }
 
   .gameDevSidePannel{
     left:0;
     background-color: red;
+    margin-bottom: 0;
     width:60%;
 font-size: 2em;
 position: relative;
@@ -712,11 +726,11 @@ position: relative;
 /*/////////////////////////////Grid///////////////*/
 
 .grid-box{
-background-color: #white;
+background-color: Grey;
 box-sizing: border-box;
   width: 100%;
   padding-bottom: 2%;
-  margin-left:
+
 }
 
 
@@ -869,13 +883,20 @@ margin-right: 5%;
   text-align: center;
 }
 
+.Gp_box .linkz h4 a{
+  color: white;
+  background-color: black;
+}
+
+
 .Gp_box{
   display: inline-block;
   text-align: center;
   margin: 2%;
-  background-color:  #black;
   vertical-align: middle;
-  background-color: lightgrey;
+  background-image: url("AwesomeHeader1.jpg");
+  background-size: contain;
+  background-position: center;
 }
 .Gp_box:hover{
   display: inline-block;
@@ -886,7 +907,7 @@ margin-right: 5%;
 }
 
 .FrankosHat{
-  background-image: url("Game.png");
+  background-image: url("Game3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -894,29 +915,14 @@ margin-right: 5%;
   width: 40vh;
 }
 .FrankosHat:hover{
-  background-image: url("Game2.png");
+  background-image: url("Game1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   height: 50vh;
   width: 50vh;
 }
-.blender{
-  background-image: url("Game7.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 40vh;
-  width: 40vh;
-}
-.blender:hover{
-  background-image: url("Game6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 50vh;
-  width: 50vh;
-}
+
 .anxi{
   background-image: url("Game4.png");
   background-repeat: no-repeat;
@@ -926,29 +932,14 @@ margin-right: 5%;
   width: 40vh;
 }
 .anxi:hover{
-  background-image: url("Game2.png");
+  background-image: url("Game5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   height: 50vh;
   width: 50vh;
 }
-.unityFlow{
-  background-image: url("Game.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 40vh;
-  width: 40vh;
-}
-.unityFlow:hover{
-  background-image: url("Game2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 50vh;
-  width: 50vh;
-}
+
 .RFR{
   background-image: url("Game6.png");
   background-repeat: no-repeat;
@@ -958,7 +949,7 @@ margin-right: 5%;
   width: 40vh;
 }
 .RFR:hover{
-  background-image: url("Game2.png");
+  background-image: url("Game6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -966,7 +957,7 @@ margin-right: 5%;
   width: 50vh;
 }
 .life{
-  background-image: url("Game10.png");
+  background-image: url("Game11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -974,7 +965,23 @@ margin-right: 5%;
   width: 40vh;
 }
 .life:hover{
-  background-image: url("Game11.png");
+  background-image: url("Game10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+.p2d{
+  background-image: url("Game9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.p2d:hover{
+  background-image: url("Game8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

@@ -4,7 +4,8 @@ function footer(){
 
   let d = new Date();
   const dyear=d.getFullYear();
-    return  <footer>
+
+    return  <footer >
     <div class="footer-content">
                 <div class="container">
                     <div className="footerLogo">
