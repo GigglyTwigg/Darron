@@ -348,11 +348,20 @@ margin: 0;
 /*////////////////////////////////////////////////////Game Development Page Style////////////////////////////////////////////////////////////////*/
 .gameDevImg{
   background-image: url("GameDeveloperHeader.jpg");
-  width: 100%;
+width: 100%;
   height: 40vh;
+  margin: 0;
+  padding:0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+
+}
+
+.gameDevHeading {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .gameDevHeading h3{
   margin: 5% 10%;
