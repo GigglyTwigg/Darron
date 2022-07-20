@@ -1,66 +1,48 @@
+
 import React from "react";
 
+import CreatePreviewBox from "./PreviewBox";
+
 function GamePreviews(){
+
   return(<div>
 <div className="GP_Main">
-<div className="Gp_box">
 
-<div className="GP_Img fh linkz">
+<CreatePreviewBox
+name="Franko's Hat"
+cssName="FrankosHat"
+link="https://gigglytwigg.itch.io/frankos-hat"
 
-
-<h4><a href="https://gigglytwigg.itch.io/frankos-hat">Franko's Hat</a></h4>
-</div>
-
-</div>
-
-<div className="Gp_box">
-
-<div className="GP_Img RFR">
-//img of frankos hat
-<h4>Run From Responsibilities</h4>
-</div>
-
-</div>
-
-<div className="Gp_box">
-
-<div className="GP_Img anxi">
-//img of frankos hat
-<h4>Escape From Anxi</h4>
-</div>
-
-</div>
-
-<div className="Gp_box">
-
-<div className="GP_Img unityFlow">
-//img of frankos hat
-<h4>Unity2D</h4>
-</div>
-</div>
+/>
 
 
-<div className="Gp_box">
 
-<div className="GP_Img blender">
-//img of frankos hat
+<CreatePreviewBox
+name="Run From Responsibilities"
+cssName="RFR"
+link="https://gigglytwigg.itch.io/RFR"
 
-<h4>3D Modelling</h4>
-</div>
+/>
+
+
+
+<CreatePreviewBox
+name="Escape From Anxi"
+cssName="anxi"
+link="https://gigglytwigg.itch.io/Anxi"
+
+/>
+
+<CreatePreviewBox
+name="Life-On"
+cssName="life"
+link="https://gigglytwigg.itch.io/Life-Of"
+
+/>
 
 </div>
-
-<div className="Gp_box">
-
-<div className="GP_Img life">
-
-<h4>Life-On</h4>
-</div>
-
-</div>
-
-</div>
-    </div>);
+    </div>
+  );
 }
 
 export default GamePreviews;

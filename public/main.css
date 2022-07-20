@@ -885,7 +885,7 @@ margin-right: 5%;
   vertical-align: middle;
 }
 
-.fh{
+.FrankosHat{
   background-image: url("Game.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -893,7 +893,7 @@ margin-right: 5%;
   height: 40vh;
   width: 40vh;
 }
-.fh:hover{
+.FrankosHat:hover{
   background-image: url("Game2.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -902,7 +902,7 @@ margin-right: 5%;
   width: 50vh;
 }
 .blender{
-  background-image: url("Game.png");
+  background-image: url("Game7.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -910,7 +910,7 @@ margin-right: 5%;
   width: 40vh;
 }
 .blender:hover{
-  background-image: url("Game2.png");
+  background-image: url("Game6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -918,7 +918,7 @@ margin-right: 5%;
   width: 50vh;
 }
 .anxi{
-  background-image: url("Game.png");
+  background-image: url("Game4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -950,7 +950,7 @@ margin-right: 5%;
   width: 50vh;
 }
 .RFR{
-  background-image: url("Game.png");
+  background-image: url("Game6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -966,7 +966,7 @@ margin-right: 5%;
   width: 50vh;
 }
 .life{
-  background-image: url("Game.png");
+  background-image: url("Game10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -974,7 +974,7 @@ margin-right: 5%;
   width: 40vh;
 }
 .life:hover{
-  background-image: url("Game2.png");
+  background-image: url("Game11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
