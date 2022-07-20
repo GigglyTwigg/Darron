@@ -24,11 +24,12 @@ function GameDevelopment() {
        <p>{content[3].profile}</p>
         <p>  {content[3].about}</p>
       </div>
+    </div>
+      </div>
+
 
       <GameDevRef />
       <GamePreviews />
-    </div>
-      </div>
         </div>
   );
 };
