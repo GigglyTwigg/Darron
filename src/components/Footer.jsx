@@ -4,9 +4,11 @@ function footer(){
 
   let d = new Date();
   const dyear=d.getFullYear();
-
-    return  <footer >
-    <div class="footer-content">
+const path = window.location.pathname;
+const pathname = path.replace(/[^a-zA-Z0-9 ]/g, '');
+console.log(pathname);
+    return  < footer>
+    <div class="footer-content"  className={pathname}>
                 <div class="container">
                     <div className="footerLogo">
 
