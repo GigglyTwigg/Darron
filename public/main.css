@@ -346,6 +346,8 @@ margin: 0;
 }
 
 /*////////////////////////////////////////////////////Game Development Page Style////////////////////////////////////////////////////////////////*/
+
+
 .gameDevImg{
   background-image: url("GameDeveloperHeader.jpg");
 width: 100%;
@@ -366,6 +368,7 @@ width: 100%;
 .gameDevHeading h3{
   margin: 5% 10%;
   color: white;
+  font-family: 'Fredoka One', cursive;
 }
 .gameDevHeading a{
   color: grey;
@@ -418,6 +421,16 @@ text-align: center;
 
 .skillsPanel{
 padding: 10%;
+/*font-family: 'Carter One', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik', sans-serif;*/
+
+
+font-family:'Rubik', cursive;
 }
 
 .skillsPanel .skillsBar{
@@ -426,6 +439,10 @@ padding: 10%;
 
 .skillsPanel ul{
   padding-bottom: 20%;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2em;
+  list-style: none;
+
 }
 
 .skillsPanel .skillbar{
@@ -454,6 +471,7 @@ padding-bottom: 10%;
 .gameDevSidePannel h4{
   padding-top: 5%;
   padding-bottom: 2%;
+  font-family: 'Fredoka One', cursive;
 }
 
 .gameDevAboutRight
@@ -464,6 +482,8 @@ padding-bottom: 10%;
   padding: 5vh 2vh;
 color: white;
 border-radius: 2%;
+font-family: 'Indie Flower', cursive;
+font-size: 1.4em;
 }
 
 
@@ -496,19 +516,19 @@ border-radius: 2%;
 
 .pg-link{
   background-color:black ;
+  box-shadow: 1px 1px 0px 1px grey;
   width: 90%;
   margin:5% 5%;
   padding: 5vh 2vh;
 color: white;
 border-radius: 2%;
+font-family: 'Fredoka One', cursive;
 }
 
 
 .gameDevBody {
 background-color: black;
   margin: 0 15% 0 15%;
-
-
 
 }
 
@@ -678,16 +698,19 @@ position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
     font-size: 1.5em;
+
   }
 
   .gameDevBody{
     margin: auto;
+
   }
 
 
 .gameDevBody h1{
   font-size: 3em;
   margin-left: 25%;
+font-family: 'Press Start 2P';
 }
 
 }
@@ -823,7 +846,7 @@ background-color: red;
 .disc{
 background-color:#171010;
 width:100%;
-box-shadow: 1px 1px 0px 1px white;
+box-shadow: 1px 1px 0px 1px grey;
 vertical-align: middle;
 border-radius: 2%;
 color: white;
@@ -832,14 +855,17 @@ color: white;
 
 .disc h2{
   text-align: center;
+    font-family: 'Fredoka One', cursive;
 }
 .disc h3{
   text-align: center;
+  font-family: 'Fredoka One', cursive;
 }
 .disc li{
   margin-right: 60px;
   list-style: none;
   text-align: center;
+  font-family: 'Fredoka One', cursive;
 }
 .linka h4 a{
   width: 10%;
@@ -864,6 +890,7 @@ color: white;
   display: inline-block;
   text-decoration: underline;
 margin:auto;
+font-family: 'Fredoka One', cursive;
 }
 .linkz h4 a:hover{
   width: 50%;
@@ -876,17 +903,6 @@ margin:auto;
    .linkz:hover{
   color: red;
   cursor: pointer;
-}
-.discOne{
-
-}
-
-.disctwo{
-
-}
-
-.discthree{
-
 }
 
 .GP_Main{
@@ -909,6 +925,7 @@ margin:auto;
   background-image: url("AwesomeHeader1.jpg");
   background-size: contain;
   background-position: center;
+  border-radius: 5%;
 }
 .Gp_box:hover{
   display: inline-block;

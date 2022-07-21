@@ -24,6 +24,7 @@ function GameDevelopment() {
       <div className="gameDevAboutRight">
        <p>{content[3].profile}</p>
         <p>  {content[3].about}</p>
+          <p>  {content[3].aboutMore}</p>
       </div>
     </div>
       </div>
