@@ -26,7 +26,7 @@ export const ContactForm = () => {
       <div class="container">
           <h1>CONTACT ME!!!</h1>
           <br />
-  
+
           <br/>
       <div class="row align-items-stretch no-gutters contact-wrap">
       <br/>
@@ -34,7 +34,7 @@ export const ContactForm = () => {
       <br/>
       <div class="form h-100">
 
-      <h3>Send us a message</h3>
+      <h3>Send a message</h3>
       <form class="mb-5"  id="contact-form" name="contact-form" novalidate="noValidate"ref={form} onSubmit={sendEmail}>
 
       <div class="row">
