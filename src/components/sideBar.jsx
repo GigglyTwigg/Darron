@@ -39,12 +39,16 @@ function SidePanel(){
 <div className="Net skills">72%</div>
 </div>
 <CreateSkillBar skill="Level-Design" perc="65%" />
-<CreateSkillBar skill="Sound" perc="15%" />
+<CreateSkillBar skill="Source-Control" perc="25%" />
+<CreateSkillBar skill="Sound" perc="10%" />
 </div>
 <hr />
 <div className="linka"><h4 ><a href="https://gigglytwigg.itch.io/">ITCH.IO</a></h4></div>
-
+<div className="cvLinka">
+<h3><a href="GDCV.pdf">CV</a></h3>
 </div>
+</div>
+
 </div>
 );
 }

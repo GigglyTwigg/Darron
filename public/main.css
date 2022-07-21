@@ -429,9 +429,29 @@ font-family: 'Patrick Hand', cursive;
 font-family: 'Press Start 2P', cursive;
 font-family: 'Rubik', sans-serif;*/
 
-
 font-family:'Rubik', cursive;
 }
+
+.cvLinka{
+
+    margin: auto;
+    margin-top: 5vh;
+      text-align: center
+}
+
+.cvLinka  a{
+    color:lightgrey;
+    text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+
+  }
+
+  .cvLinka  a:hover{
+    color: lightblue;
+    font-size: 1.5em;
+    text-decoration: underline;
+
+  }
 
 .skillsPanel .skillsBar{
   padding-top: 20%;
@@ -539,7 +559,8 @@ background-color: black;
 
 .Level-Design {width: 65%; background-color:lightgreen;}
 .Game-Mechanics{width: 90%; background-color:lightblue;}
-.Sound{width: 24%; background-color:lightgrey;}
+.Source-Control{width: 25%; background-color:lightgrey;}
+.Sound{width: 10%; background-color:pink;}
 .Net {width: 72%; background-color:#2196F3;}
 
 

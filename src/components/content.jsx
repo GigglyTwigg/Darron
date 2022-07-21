@@ -7,7 +7,7 @@ const content=[{
   title:"frameworks",
   lang:["C#", "JavaScript","Python"," ReactJS", "html", "CSS"," Bootstrap", "Express"," NodeJs", "SQL"," MongoDB"],
   certificates:["c1.png","c2.png","c3.png","c4.png","c5.png","c6.png","c2.png",],
-  gameDevSkills:["Unity2D","Unity3D","Blender","PS/Krita/Gimp","C#.Net","Mobile(Android)"],
+  gameDevSkills:["Unity2D","Unity3D","C#.Net","Blender","PS/Krita/Gimp","Source Control","Mobile(Android)"],
 
 
 },{

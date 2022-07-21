@@ -65,6 +65,10 @@ return (<div className="grid-box-container">
 <h4>I know how to use my initive and gumption to help the team move forward. </h4>
 <h4>I am a Team Player and can work in high pressure enviroments.</h4>
 <h4>I am always learning</h4>
+<hr/>
+<div className="cvLinka">
+<h3><a href="GDCV.pdf">CV</a></h3>
+</div>
 </div>
 <h3 className="pg-link">Check out my projects or my latest Game-Jam's.</h3>
 <div className="linkz"><h4 ><a href="https://gigglytwigg.itch.io/">ITCH.IO</a></h4></div>
