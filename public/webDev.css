@@ -1,22 +1,14 @@
-.webDevHeadingImg{
-  background-image: url("GameDeveloperHeader3.jpg");
-width: 100%;
+.devHeaderImg{
+  background-image: url("WebDevHeading2.jpg");
+width: 40vw;
   height: 40vh;
   margin: 0;
   padding:0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
-.devHeader img{
   background-size: contain;
-  background-position:top;
-  background-clip: border-box;
-width: 40vw;
-height: 40vh;
-margin: auto;
-margin-right: 90vh;
 }
+
 .webDevProfile{
   font-family: 'Patrick Hand', cursive;
   background-color: #FFE6E6;
