@@ -12,7 +12,9 @@ const content=[{
 
 },{
 title:"Dev",
-content:"I have a passion to learn and gain experience.I enjoy the challenges and problems I face in my daily codeing and developing, I enjoy the problem solving and constant challenges and new expreinces I find myself having in the Development world.\nI love watching people enjoy using my app."
+content:"I have a passion to learn and gain experience.I enjoy the challenges and problems I face in my daily codeing and developing, I enjoy the problem solving and constant challenges and new expreinces I find myself having in the Development world.\nI love watching people enjoy using my app.",
+profile:"I am self taught in the MERN stack, I have built and managed many sites, I am eager to work try new things and work with people to create an experience and produce what a great web-App",
+profile1:"I am truly passionate about development and learning. I dont want to create an app I want to create a great APP!!!"
 
 },{
   title:"GameDevelopment",

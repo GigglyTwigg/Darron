@@ -4,7 +4,7 @@ import content from "./content";
   function WebDevIntro(){
     return(
           <div className="webDevProfile" >
-              <p> {content[2].content}  </p>
+              <h3> {content[2].content}  </h3>
           </div>
     );
   }

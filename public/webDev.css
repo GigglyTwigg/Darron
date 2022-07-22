@@ -1,3 +1,9 @@
+.devBody{
+  text-align: center;
+
+    font-family: 'Patrick Hand', cursive;
+}
+
 .devHeaderImg{
   background-image: url("WebDevHeading2.jpg");
 width: 40vw;
@@ -6,23 +12,22 @@ width: 40vw;
   padding:0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size:contain;
 }
 
 .webDevProfile{
-  font-family: 'Patrick Hand', cursive;
   background-color: #FFE6E6;
   font-size: 1.2em;
-  width: 70vw;
+  width: 60vw;
   height: 40vh;
-  padding: 10%;
-  margin-bottom: 10vh;
+  padding: 12vh;
+  margin-bottom: 20vh;
 }
 
 
 .webDevBot{
     background-color:#FFE6E6;
-    width: 70vw;
+    width: 60vw;
     height: 30vh;
     margin: auto;
     padding: 8vh 2vw;

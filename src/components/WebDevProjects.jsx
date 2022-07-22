@@ -3,9 +3,8 @@ import content from "./content";
 
 function WebDevProjects(){
   return(  <div className="webDevBot" >
-        <p > {content[2].content}  </p>
-                  <p>Have a look at my websites, features and apps I have worked on. </p>
-
+        <h4 > {content[2].profile}  </h4>
+                <h4> {content[2].profile1}  </h4>
               </div>
 
   );

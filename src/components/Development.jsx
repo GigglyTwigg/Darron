@@ -19,6 +19,9 @@ const Development = () => {
 
 <WebDevProjects />
 <hr className="webDevHr"/>
+<br/>
+<h3>Have a look at my websites, features and apps I have worked on. </h3>
+
 <WebDevPreviews />
     </div>
   );
