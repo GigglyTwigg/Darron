@@ -62,7 +62,7 @@ return (<div className="grid-box-container">
 <h4>I am not scared to learn or try new things,I'm always keen to learn.</h4>
 
 <h4>My background in the HVAC and BAC/BMS industry, helped me become analytical and honed my abilities in planning, critical path analysis, fault finding, and my drive to finish the overall project with minimum "call back's".</h4>
-<h4>I know how to use my initive and gumption to help the team move forward. </h4>
+<h4>I know how to use my initiative and gumption to help the team move forward. </h4>
 <h4>I am a Team Player and can work in high pressure enviroments.</h4>
 <h4>I am always learning</h4>
 <hr/>
