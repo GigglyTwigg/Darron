@@ -14,10 +14,9 @@ const Development = () => {
     <div className="devBody">
 <WebDevHeading />
 <WebDevIntro />
-<hr className="webDevHr"/>
+<WebDevProjects />
 <WebDevSkill />
 
-<WebDevProjects />
 <hr className="webDevHr"/>
 <br/>
 <h3>Have a look at my websites, features and apps I have worked on. </h3>
