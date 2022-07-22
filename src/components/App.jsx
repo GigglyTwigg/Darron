@@ -6,7 +6,6 @@ import NavBar from "./navBar";
 import Home from "./Home";
 import Development from "./Development";
 import GameDevelopment from "./GameDevelopment";
-import MartialArts from "./MartialArts";
 import Contact from "./Contact";
 import Footer from "./Footer";
 function App(){
