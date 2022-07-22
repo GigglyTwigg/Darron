@@ -1,0 +1,94 @@
+
+.devHeader img{
+  background-size: contain;
+  background-position:top;
+  background-clip: border-box;
+width: 40vw;
+height: 40vh;
+margin: auto;
+margin-right: 90vh;
+}
+.webDevProfile{
+  font-family: 'Patrick Hand', cursive;
+  background-color: #FFE6E6;
+  font-size: 1.2em;
+  width: 70vw;
+  height: 40vh;
+  padding: 10%;
+  margin-bottom: 10vh;
+}
+
+
+.webDevBot{
+    background-color:#FFE6E6;
+    width: 70vw;
+    height: 30vh;
+    margin: auto;
+    padding: 8vh 2vw;
+    text-align: center;
+    margin-right: 0;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+}
+.webDevHr{
+  margin: auto;
+  width: 2vw;
+}
+
+
+.frameworkBod{
+
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  display: inline-block;
+  width: 40vw;
+vertical-align: top;
+}
+
+.frameworkBod2{
+
+    padding: 2%;
+      display: inline-block;
+        width: 40vw;
+        vertical-align: top;
+}
+.webDevMidBod{
+  width: 80%;
+  margin: 10vw;
+      background-color: #C6DCE4;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.C {width: 92%; background-color: orange;}
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.CSS {width: 94%; background-color: #2196F3;} /* Blue */
+.JavaScript {width: 75%; background-color: #f44336;} /* Red */
+.ReactJS {width: 80%; background-color: #808080;} /* Dark Grey */
+.NodeJS {width: 73%; background-color:pink;}
+.Python {width: 45%; background-color:lightgreen;}\
+.Bootstrap {width: 90%; background-color:lightblue;}
+.Unity {width: 95%; background-color:Black;}
+.SQL{width: 50%; background-color:lightgrey;}
+.MongoDB{width: 55%; background-color:#C7D36F;}
+
+
+.WebDevGp_box{
+  height: 40vh;
+  width: 40vh;
+  background-color: #C6DCE4;
+  display: inline-block;
+  margin: 2%;
+  color: black;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.WDlink h4 a{
+  color: black;
+}

@@ -1,0 +1,22 @@
+
+.contactme {
+  text-align: center;
+  margin-left: 15%;
+  margin-bottom: 15vh;
+  font-family: 'Patrick Hand', cursive;
+  background-color:  #FCF9C6;
+width: 30%;
+padding-top: 10%;
+}
+
+.contact {
+  color: white;
+  margin: 1%;
+}
+
+.gdcvLinkCon a{
+  color: black;
+}
+.wdcvLinkCon a{
+  color: black;
+}

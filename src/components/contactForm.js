@@ -78,26 +78,26 @@ export const ContactForm = () => {
       <input type="submit" value="Send Message" class="btn btn-dark rounded-0 py-2 px-4" />
       <span class="submitting"></span>
       </div>
-
       </div>
       </form>
-
-      </div>
-      <div className="col-md-6 ls-12 contactme">
-      <div className="contact-info h-100" >
-      </div>
       </div>
       </div>
 
       <div className="contactme1 contactme ">
-            <h3>Or contact me:</h3>
-      <p>Email: darronmgordon@gmail.com </p>
+            <h2>Or contact me:</h2>
+      <h3>Email: darronmgordon@gmail.com </h3>
+      <div className="gdcvLinkCon">
+      <h4><a href="GDCV.pdf">Game Development CV</a></h4>
+      </div>
+
+      <div className="wdcvLinkCon">
+      <h4><a href="WDCV.pdf">Website Development CV</a></h4>
       </div>
       </div>
       </div>
       </div>
       </div>
-  //  </form>
+      </div>
   );
 };
 

@@ -12,6 +12,7 @@ function GameDevelopment() {
 
   return (
       <div>
+
     <div className="gameDev-Container">
     <SidePanel />
     <div className="gameDevBody">

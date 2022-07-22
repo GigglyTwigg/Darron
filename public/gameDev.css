@@ -1,0 +1,522 @@
+
+
+/*font-family: 'Carter One', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik', sans-serif;*/
+
+.gameDevImg{
+  background-image: url("GameDeveloperHeader.jpg");
+width: 100%;
+  height: 40vh;
+  margin: 0;
+  padding:0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.gameDevHeading {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.gameDevHeading h3{
+  margin: 5% 10%;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+.gameDevHeading a{
+  color:grey;
+}
+.gameDevHeading a:hover{
+  color:lightblue;
+  font-size: 1.2em;
+}
+
+.grid-box-container{
+  z-index: 2;
+text-align: center;
+  background-color: lightgrey;
+}
+
+.grid-box-container hr{
+  width: 5%;
+    margin:auto;
+  margin-top: 50px;
+  color:#E6E6E6;
+}
+
+.slideContainer{
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+
+}
+
+.slide > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  height:60vh;
+}
+
+.slide span{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background: rgba(141, 174, 224, 0.5);
+  text-align: center;
+  margin-top: 400px;
+}
+
+.skillsPanel{
+padding: 10%;
+
+font-family:'Rubik', cursive;
+}
+
+.cvLinka{
+
+    margin: auto;
+    margin-top: 5vh;
+      text-align: center
+}
+
+.cvLinka  a{
+    color:lightgrey;
+    text-decoration: underline;
+  font-family: 'Fredoka One', cursive;
+
+  }
+
+  .cvLinka  a:hover{
+    color: lightblue;
+    font-size: 1.5em;
+    text-decoration: underline;
+
+  }
+
+.skillsPanel .skillsBar{
+  padding-top: 20%;
+}
+
+.skillsPanel ul{
+  padding-bottom: 20%;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2em;
+  list-style: none;
+
+}
+
+.skillsPanel .skillbar{
+padding-bottom: 20px;
+}
+
+.skillsPanel hr{
+  width: 25%;
+  border-top: 10px dotted lightgrey;
+  margin: auto;
+}
+
+.gameDevSidePannel{
+  display: inline-block;
+  position: sticky;
+  left: 0;
+  top: 0;
+  background-color: #362222;
+  color: white;
+  width:15%;
+padding-bottom: 10%;
+  border-radius:1%;
+  float: left;
+}
+
+.gameDevSidePannel h4{
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-family: 'Fredoka One', cursive;
+  margin: auto;
+  margin-top:2rem;
+}
+
+.gameDevAboutRight
+{
+  background-color:black;
+  width: 90%;
+  margin:5% 5% 0 5%;
+  padding: 5vh 2vh;
+color: white;
+border-radius: 2%;
+font-family: 'Indie Flower', cursive;
+font-size: 1.4em;
+}
+
+
+.gameDevSlider
+{
+  display: inline-block;
+  width: 900px;
+  height: 400px;
+position: absolute;
+vertical-align: top;
+margin-left: 30%;
+
+}
+
+.gameDevAbout hr{
+  width:5%;
+  border-top: 10px dotted black;
+  margin-top: 50px;
+  margin-left: 49%;
+}
+
+.pg-gitgud{
+  width: 50%;
+  margin:auto;
+  padding: 5vh 2vh;
+color:black;
+border-radius: 2%;
+
+}
+
+.pg-link{
+  background-color:black ;
+  box-shadow: 1px 1px 0px 1px grey;
+  width: 90%;
+  margin:5% 5%;
+  padding: 5vh 2vh;
+color: white;
+border-radius: 2%;
+font-family: 'Fredoka One', cursive;
+}
+
+
+.gameDevBody {
+background-color: black;
+  margin: 0 15% 0 15%;
+
+}
+
+.gameDevBody h1{
+  text-align: center;
+  padding: 2% 0;
+}
+
+.Level-Design {width: 65%; background-color:lightgreen;}
+.Game-Mechanics{width: 90%; background-color:lightblue;}
+.Source-Control{width: 25%; background-color:lightgrey;}
+.Sound{width: 10%; background-color:pink;}
+.Net {width: 72%; background-color:#2196F3;}
+
+
+.Game{
+  background-image: url("Game.png");
+}
+.Game1{
+  background-image: url("Game1.png");
+}
+.Game2{
+  background-image: url("Game2.png");
+}
+.Game3{
+  background-image: url("Game3.png");
+}
+.Game4{
+  background-image: url("Game4.png");
+}
+.Game5{
+  background-image: url("Game5.png");
+}
+.Game6{
+  background-image: url("Game6.png");
+}
+.Game7{
+  background-image: url("Game7.png");
+}
+.Game8{
+  background-image: url("Game8.png");
+}
+.Game9{
+  background-image: url("Game9.png");
+}
+.Game10{
+  background-image: url("Game10.png");
+}
+.Game11{
+  background-image: url("Game11.png");
+}
+.Game12{
+  background-image: url("Game12.png");
+}
+
+
+.grid-box{
+background-color:#423F3E;
+box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 2%;
+
+}
+
+
+.three-images{
+display: inline-block;
+width: 30%;
+margin: 1%;
+margin-left: 2%;
+text-align: center;
+}
+
+.three-image{
+border-radius: 100%;
+margin:auto;
+margin-bottom: 5%;
+margin-top: 5%;
+  border: 2px solid black;
+}
+
+.three-image h4{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 30%;
+}
+
+.three-images h4{
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+
+.imgone{
+  width: 100px;
+  height: 100px;
+background-color: red;
+
+}
+.imgone:hover{
+  background-color: pink;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+}
+
+.imgtwo{
+
+    width: 100px;
+    height: 100px;
+  background-color: blue;
+}
+.imgtwo:hover{
+
+    width: 110px;
+    height: 110px;
+  background-color: lightblue;
+  border: none;
+  box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.imgthree{
+
+    width: 100px;
+    height: 100px;
+  background-color: green;
+
+}
+.imgthree:hover{
+  border: none;
+  box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+    width: 110px;
+    height: 110px;
+  background-color: lightgreen;
+  cursor: pointer;
+
+}
+
+.disc{
+background-color:#171010;
+width:100%;
+box-shadow: 1px 1px 0px 1px grey;
+vertical-align: middle;
+border-radius: 2%;
+color: white;
+
+}
+
+.disc h2{
+  text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+.disc h3{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+.disc li{
+  margin-right: 60px;
+  list-style: none;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+.linka h4 a{
+  width: 10%;
+  color: white;
+  display: inline-block;
+  text-decoration: underline;
+  margin-bottom: 2%;
+  margin-right: 90px;
+}
+.linka h4 a:hover{
+  width: 10%;
+  font-size: 1.2em;
+  color: lightgrey;
+  display: inline-block;
+  text-decoration: underline;
+  margin-bottom: 2%;
+  margin-right: 90px;
+}
+.linkz h4 a{
+  width: 50%;
+  color:lightgrey;
+  display: inline-block;
+  text-decoration: underline;
+margin:auto;
+font-family: 'Fredoka One', cursive;
+}
+.linkz h4 a:hover{
+  width: 50%;
+  color: lightblue;
+  font-size: 1.5em;
+  display: inline-block;
+  text-decoration: underline;
+
+}
+   .linkz:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.GP_Main{
+  text-align: center;
+  margin:10% 0;
+}
+
+.Gp_box .linkz h4 a{
+  color: white;
+  background-color: black;
+  margin: 1%;
+  padding: 2%;
+}
+
+
+.Gp_box{
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+  vertical-align: middle;
+  background-image: url("AwesomeHeader1.jpg");
+  background-size: contain;
+  background-position: center;
+  border-radius: 5%;
+}
+.Gp_box:hover{
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+  background-color:grey;
+  vertical-align: middle;
+}
+
+.FrankosHat{
+  background-image: url("Game3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.FrankosHat:hover{
+  background-image: url("Game1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+
+.anxi{
+  background-image: url("Game4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.anxi:hover{
+  background-image: url("Game5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+
+.RFR{
+  background-image: url("Game6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.RFR:hover{
+  background-image: url("Game6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+.life{
+  background-image: url("Game11.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.life:hover{
+  background-image: url("Game10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+.p2d{
+  background-image: url("Game9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vh;
+  width: 40vh;
+}
+.p2d:hover{
+  background-image: url("Game8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}

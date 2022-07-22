@@ -23,12 +23,9 @@ console.log(isNavExpanded);
           <a class="nav-link" href="Development">Development</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="MartialArts">MartialArts</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link " href="Contact">Contact</a>
         </li>
-    
+
       </ul>
 
     </div>
