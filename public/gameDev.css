@@ -258,6 +258,12 @@ background-color: black;
 .Game12{
   background-image: url("Game12.png");
 }
+.Game13{
+  background-image: url("SS.png");
+}
+.Game14{
+  background-image: url("SS1.png");
+}
 
 
 .grid-box{
@@ -411,6 +417,13 @@ font-family: 'Fredoka One', cursive;
   text-align: center;
   margin:10% 0;
 }
+.GP_Main h1{
+  margin: auto;
+  font-size: 4rem;
+  font-family: 'Fredoka One', cursive;
+  text-decoration: underline;
+  margin-bottom: 15vh;
+}
 
 .Gp_box .linkz h4 a{
   color: white;
@@ -443,16 +456,16 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 40vh;
-  width: 40vh;
+  height: 60vh;
+  width: 60vh;
 }
 .FrankosHat:hover{
   background-image: url("Game1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 50vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
 }
 
 .anxi{
@@ -460,16 +473,16 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 40vh;
-  width: 40vh;
+  height: 60vh;
+  width: 60vh;
 }
 .anxi:hover{
   background-image: url("Game5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 50vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
 }
 
 .RFR{
@@ -477,46 +490,62 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 40vh;
-  width: 40vh;
+  height: 60vh;
+  width: 60vh;
 }
 .RFR:hover{
   background-image: url("Game6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 50vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
 }
 .life{
   background-image: url("Game11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 40vh;
-  width: 40vh;
+  height: 60vh;
+  width: 60vh;
 }
 .life:hover{
   background-image: url("Game10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 50vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
 }
 .p2d{
   background-image: url("Game9.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 40vh;
-  width: 40vh;
+  height: 60vh;
+  width: 60vh;
 }
 .p2d:hover{
   background-image: url("Game8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 50vh;
-  width: 50vh;
+  height: 80vh;
+  width: 80vh;
+}
+.colour{
+  background-image: url("SS1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 60vh;
+  width: 60vh;
+}
+.colour:hover{
+  background-image: url("SS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80vh;
+  width: 80vh;
 }

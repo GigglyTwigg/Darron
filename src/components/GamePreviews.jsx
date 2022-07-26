@@ -7,10 +7,18 @@ function GamePreviews(){
 
   return(<div>
 <div className="GP_Main">
+<h1>Game-Jams</h1>
+<CreatePreviewBox
+name="Colour"
+cssName="colour"
+link="https://gigglytwigg.itch.io/lifeof"
+
+/>
+
 <CreatePreviewBox
 name="Prepare2Die"
 cssName="p2d"
-link="https://phatjesuslive.itch.io/prepare-2-die"
+link="https://gigglytwigg.itch.io/colour"
 
 />
 
