@@ -14,14 +14,12 @@ function GameDevelopment() {
       <div>
 
     <div className="gameDev-Container">
-    <SidePanel />
+
     <div className="gameDevBody">
       <GameDevHeading />
-
-      <div className="gameDevAbout">
         <Slider/>
-      <hr />
-      </div>
+    <SidePanel />
+
       <div className="gameDevAboutRight">
        <p>{content[3].profile}</p>
         <p>  {content[3].about}</p>

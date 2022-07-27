@@ -1,36 +1,56 @@
 import  {useState} from 'react';
 import CV from "./CV"
 
-const NavBar = () => {
+function NavBar  ()  {
+const toggleBtnClass="";
 
-const[isNavExpanded, SetIsNavExpanded]= useState(true);
-console.log(isNavExpanded);
+let isExpanded = false;
+const[isNavExpanded, SetIsNavExpanded]= useState("main-navBod");
+const[isNavExpandedMNI, SetIsNavExpandedMNI]= useState("main-navItem");
+const[isNavExpandedMNIS, SetIsNavExpandedMNIS]= useState("main-navItems");
+
+function ToggleHamburger(){
+isExpanded =!isExpanded;
+if(isExpanded==true)
+{
+  SetIsNavExpanded("mobile-nav ");
+  SetIsNavExpandedMNI("mobile-navItem");
+  isNavExpandedMNIS("mobile-navItems");
+}
+else if(isExpanded==false)
+{
+  SetIsNavExpanded("main-navBod");
+}
+}
+
+function ToggleHamburgerOff(){
+isExpanded =false;
+  SetIsNavExpanded("main-navBod");
+  SetIsNavExpandedMNI("main-navItem");
+  isNavExpandedMNIS("main-navItems");
+}
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <img src="/logo1.png" style={{ height:"60px"}}/>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-            <li class="nav-item active">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="GameDevelopment">Game-Development</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Development">Development</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="Contact">Contact</a>
-        </li>
-
+    <header class="main-header">
+  <div><div className="img" />
+  <button id="toggle-button" className="toggle-button" onClick ={ ToggleHamburger}>
+  <span className="toggle-buttonBar "/><span className="toggle-buttonBar "/><span className="toggle-buttonBar "/><a href="/"></a></ button>
+  </div><nav className={isNavExpanded}>
+      <ul class={isNavExpandedMNIS} onClick ={ ToggleHamburgerOff}>
+      <li class={isNavExpandedMNI}>
+          <a href="/">Home</a>
+      </li>
+          <li class={isNavExpandedMNI}>
+              <a href="Development">Web-Development</a>
+          </li>
+          <li class={isNavExpandedMNI}>
+              <a href="GameDevelopment">Game-Development</a>
+          </li>
+          <li class={isNavExpandedMNI}>
+              <a href="Contact">Contact</a>
+          </li>
       </ul>
-
-    </div>
   </nav>
-
+    </ header>
   );
 };
 

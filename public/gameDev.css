@@ -10,13 +10,13 @@ font-family: 'Rubik', sans-serif;*/
 
 .gameDevImg{
   background-image: url("GameDeveloperHeader.jpg");
-width: 100%;
-  height: 40vh;
+  height: 31vw;
   margin: 0;
   padding:0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:contain;
+  position:static;
 
 }
 
@@ -25,8 +25,9 @@ width: 100%;
   padding: 0;
   width: 100%;
 }
+
 .gameDevHeading h3{
-  margin: 5% 10%;
+  margin: 5% 20%;
   color: white;
   font-family: 'Fredoka One', cursive;
 }
@@ -56,7 +57,7 @@ text-align: center;
   margin: 0 auto;
   list-style: none;
   padding: 0;
-
+  display: inline-block;
 }
 
 .slide > div{
@@ -79,11 +80,7 @@ text-align: center;
   margin-top: 400px;
 }
 
-.skillsPanel{
-padding: 10%;
 
-font-family:'Rubik', cursive;
-}
 
 .cvLinka{
 
@@ -104,6 +101,11 @@ font-family:'Rubik', cursive;
     font-size: 1.5em;
     text-decoration: underline;
 
+  }
+
+  .skillsPanel{
+  padding: 10%;
+  font-family:'Rubik', cursive;
   }
 
 .skillsPanel .skillsBar{
@@ -128,6 +130,7 @@ padding-bottom: 20px;
   margin: auto;
 }
 
+
 .gameDevSidePannel{
   display: inline-block;
   position: sticky;
@@ -136,24 +139,218 @@ padding-bottom: 20px;
   background-color: #362222;
   color: white;
   width:15%;
-padding-bottom: 10%;
   border-radius:1%;
   float: left;
 }
 
+@media (max-width: 50rem)
+{
+  .gameDevHeading h3{
+    margin: 0;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.2rem;
+  }
+
+  .gameDevSidePannel{
+    display: block;
+    position: relative;
+    background-color: #362222;
+    color: white;
+    width:100%;
+
+  }
+
+  .gameDevImg{
+    background-image: url("GameDeveloperHeader.jpg");
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+  position: static;
+    margin: auto;
+  }
+
+
+  .gameDevBody {
+  background-color: black;
+    margin: 0 0 0 15%;
+  }
+
+  .gameDevSidePannel h4{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Fredoka One', cursive;
+    margin: auto;
+    margin-top:2rem;
+  }
+
+  .skillsPanel {
+  padding: 0;
+  font-family:'Rubik', cursive;
+text-align: center;
+margin: auto;
+  }
+
+  .skillsPanel ul{
+    padding-bottom: 20%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.6rem;
+    list-style: none;
+padding-bottom: 5%;
+margin: auto;
+  }
+
+  .skillsPanel hr{
+    width: 10%;
+    border-top: 1rem dotted lightgrey;
+    margin: auto;
+  }
+
+  .skillsPanel .skillsBar{
+    padding-top:2%;
+    width: 60%;
+    margin: auto;
+        font-size: 1.6rem;
+  }
+
+  .slideContainer{
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    display:block;
+  }
+
+  .gameDevAboutRight
+  {
+    background-color:black;
+    width: 80%;
+    margin:5% 5% 0 15%;
+    padding: 5vh 2vh;
+  color: white;
+  border-radius: 2%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4em;
+  }
+
+  .grid-box-container{
+    z-index: 2;
+  text-align: center;
+    background-color: lightgrey;
+  }
+  .pg-gitgud{
+    width: 50%;
+    margin:auto;
+    padding: 5vh 2vh;
+  color:black;
+  border-radius: 2%;
+
+  }
+
+  .three-images{
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  margin-left: 2%;
+  text-align: center;
+  }
+
+
+  .FrankosHat{
+    background-image: url("Game3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+  }
+  .FrankosHat:hover{
+    background-image: url("Game1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .anxi{
+    background-image: url("Game4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .anxi:hover{
+    background-image: url("Game5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .RFR{
+    background-image: url("Game6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .RFR:hover{
+    background-image: url("Game6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .life{
+    background-image: url("Game11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .life:hover{
+    background-image: url("Game10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .p2d{
+    background-image: url("Game9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .p2d:hover{
+    background-image: url("Game8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .colour{
+    background-image: url("SS1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .colour:hover{
+    background-image: url("SS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+
+}
+
 .gameDevSidePannel h4{
-  padding-top: 5%;
+  font-size: 3rem;
+
   padding-bottom: 2%;
   font-family: 'Fredoka One', cursive;
   margin: auto;
-  margin-top:2rem;
+
+  text-align: center;
 }
 
 .gameDevAboutRight
 {
   background-color:black;
-  width: 90%;
-  margin:5% 5% 0 5%;
+  width: 80%;
+  margin:25% 25% 0 15%;
   padding: 5vh 2vh;
 color: white;
 border-radius: 2%;
@@ -181,7 +378,7 @@ margin-left: 30%;
 }
 
 .pg-gitgud{
-  width: 50%;
+  width:100%;
   margin:auto;
   padding: 5vh 2vh;
 color:black;
@@ -200,11 +397,9 @@ border-radius: 2%;
 font-family: 'Fredoka One', cursive;
 }
 
-
 .gameDevBody {
-background-color: black;
-  margin: 0 15% 0 15%;
-
+  margin: 0;
+  background-color: black;
 }
 
 .gameDevBody h1{
@@ -277,7 +472,7 @@ box-sizing: border-box;
 
 .three-images{
 display: inline-block;
-width: 30%;
+width: 90%;
 margin: 1%;
 margin-left: 2%;
 text-align: center;
@@ -376,20 +571,21 @@ color: white;
   font-family: 'Fredoka One', cursive;
 }
 .linka h4 a{
-  width: 10%;
+  width: 100%;
   color: white;
   display: inline-block;
   text-decoration: underline;
   margin-bottom: 2%;
   margin-right: 90px;
+    font-size: .8em;
 }
 .linka h4 a:hover{
-  width: 10%;
-  font-size: 1.2em;
+  width: 100%;
+  font-size: 1em;
   color: lightgrey;
   display: inline-block;
   text-decoration: underline;
-  margin-bottom: 2%;
+  margin: 1%;
   margin-right: 90px;
 }
 .linkz h4 a{
@@ -442,6 +638,8 @@ font-family: 'Fredoka One', cursive;
   background-size: contain;
   background-position: center;
   border-radius: 5%;
+  height: 40vh;
+  width: 80vw;
 }
 .Gp_box:hover{
   display: inline-block;
@@ -449,6 +647,32 @@ font-family: 'Fredoka One', cursive;
   margin: 2%;
   background-color:grey;
   vertical-align: middle;
+  height: 42vh;
+  width: 35vw;
+}
+@media(min-width:50rem){
+
+    .Gp_box{
+      display: inline-block;
+      text-align: center;
+      margin: 2%;
+      vertical-align: middle;
+      background-image: url("AwesomeHeader1.jpg");
+      background-size: contain;
+      background-position: center;
+      border-radius: 5%;
+      height: 30vh;
+      width: 30vw;
+    }
+    .Gp_box:hover{
+      display: inline-block;
+      text-align: center;
+      margin: 2%;
+      background-color:grey;
+      vertical-align: middle;
+      height: 33vh;
+      width: 33vw;
+    }
 }
 
 .FrankosHat{
@@ -456,16 +680,14 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .FrankosHat:hover{
   background-image: url("Game1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
 
 .anxi{
@@ -473,16 +695,14 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .anxi:hover{
   background-image: url("Game5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
 
 .RFR{
@@ -490,62 +710,54 @@ font-family: 'Fredoka One', cursive;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .RFR:hover{
   background-image: url("Game6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
 .life{
   background-image: url("Game11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .life:hover{
   background-image: url("Game10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
 .p2d{
   background-image: url("Game9.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .p2d:hover{
   background-image: url("Game8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
 .colour{
   background-image: url("SS1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 60vh;
-  width: 60vh;
+  height: 100%;
 }
 .colour:hover{
   background-image: url("SS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 80vh;
-  width: 80vh;
+  height: 100%;
 }
