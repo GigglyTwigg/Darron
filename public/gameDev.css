@@ -186,7 +186,7 @@ padding-bottom: 20px;
 
   .skillsPanel {
   padding: 0;
-  font-family:'Rubik', cursive;
+  font-family: 'Fredoka One', cursive;
 text-align: center;
 margin: auto;
   }
@@ -361,11 +361,8 @@ font-size: 1.4em;
 .gameDevSlider
 {
   display: inline-block;
-  width: 900px;
-  height: 400px;
-position: absolute;
-vertical-align: top;
-margin-left: 30%;
+  width: 90vw;
+  height: 90vh;
 
 }
 
@@ -680,9 +677,6 @@ font-family: 'Fredoka One', cursive;
     text-align: center;
     }
 }
-
-
-
 
 
 
