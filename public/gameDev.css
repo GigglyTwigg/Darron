@@ -647,9 +647,10 @@ font-family: 'Fredoka One', cursive;
   margin: 2%;
   background-color:grey;
   vertical-align: middle;
-  height: 42vh;
-  width: 35vw;
+  height: 45vh;
+  width: 85vw;
 }
+
 @media(min-width:50rem){
 
     .Gp_box{
@@ -682,6 +683,7 @@ font-family: 'Fredoka One', cursive;
   background-size: contain;
   height: 100%;
 }
+
 .FrankosHat:hover{
   background-image: url("Game1.png");
   background-repeat: no-repeat;

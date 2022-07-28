@@ -62,7 +62,7 @@ a:hover{
   width: 400px;
   display: block;
   z-index: 5;
-  margin-left: 40%;
+margin: auto;
 }
 
 .neutral .homecol {

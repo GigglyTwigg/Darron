@@ -8,9 +8,8 @@ import Development from "./Development";
 import GameDevelopment from "./GameDevelopment";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
 function App(){
-
-
 
   return ( <div >
    <Router>
