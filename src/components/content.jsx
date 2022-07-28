@@ -12,9 +12,8 @@ const content=[{
 
 },{
 title:"Dev",
-content:"I have a passion to learn and gain experience. I enjoy the challenges and problems I am faced with in my daily coding and developing. I enjoy the problem solving and constant challenges and new experiences I find myself having in the development world. I love watching people gain enjoyment from using my apps.",
-profile:"I am self taught in the MERN stack, I have built and managed many sites, I am eager to work try new things and work with people to create an experience and produce a great web-App",
-profile1:"I am truly passionate about development and learning. I don't want to create any app, I want to create an exceptional APP!!!"
+content:"I have a passion to learn and gain experience. I enjoy the challenges, problem solving and new experiences I find myself having in the development world.",
+profile:"I am self taught, I build and manage sites, I am eager to work with people to create an experience and produce great App's."
 
 },{
   title:"GameDevelopment",

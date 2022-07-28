@@ -14,7 +14,6 @@ const Development = () => {
     <div className="devBody">
 <WebDevHeading />
 <WebDevIntro />
-<WebDevProjects />
 <WebDevSkill />
 
 <hr className="webDevHr"/>

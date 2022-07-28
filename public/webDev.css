@@ -1,29 +1,60 @@
+@font-face {
+    font-family: WebDevHeader;
+    src: url("Helv Children.otf") format("opentype");
+}
+/*font-family: 'Fira Sans Condensed', sans-serif;*/
 .devBody{
-  text-align: center;
-
     font-family: 'Patrick Hand', cursive;
 }
 
-.devHeaderImg{
-  background-image: url("WebDevHeading2.jpg");
-width: 40vw;
-  height: 40vh;
-  margin: 0;
-  padding:0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:contain;
+.devHeader h1{
+  text-align: center;
+font-family: "WebDevHeader",sans-serif;
+font-size:3rem;
+margin: auto;
 }
 
 .webDevProfile{
   background-color: #FFE6E6;
-  font-size: 1.2em;
-  width: 60vw;
-  height: 40vh;
-  padding: 12vh;
-  margin-bottom: 20vh;
+  width: 80vw;
+  height: 35vh;
+  margin-top:15%;
+  padding: 10%;
+      box-shadow:1px 1px 1px 1px grey;
 }
 
+ .webDevProfileNxt{
+  background-color: #FFE6E6;
+  width: 80vw;
+  height: 40vh;
+  margin-top:15%;
+      box-shadow: 1px 1px 1px 1px grey;
+}
+
+.webDevProfile h4{
+  font-size:1.2rem;
+  text-align: left;
+  margin:10%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+@media(min-width:50rem)
+{
+  .devHeader{
+font-family: "WebDevHeader",sans-serif;
+  }
+
+  .webDevMidBod{
+    width: 80%;
+    margin: 10vw;
+        background-color: #C6DCE4;
+  }
+
+}
+.webDevSkillBod{
+  margin: 5%;
+  text-align: center;
+  display: block;
+}
 
 .webDevBot{
     background-color:#FFE6E6;
@@ -35,33 +66,51 @@ width: 40vw;
     margin-right: 0;
     margin-top: 9vh;
     margin-bottom: 9vh;
+
 }
 .webDevHr{
   margin: auto;
-  width: 2vw;
+  width: 4vw;
 }
 
 
 .frameworkBod{
-
-  padding-top: 2vh;
+  padding-top: 2%;
   padding-bottom: 5vh;
   display: inline-block;
-  width: 40vw;
+  width:50%;
 vertical-align: top;
+text-align: left;
+list-style: none;
+
 }
-
 .frameworkBod2{
-
     padding: 2%;
-      display: inline-block;
-        width: 40vw;
+      display:inline-block;
+        width: 50%;
         vertical-align: top;
 }
+
 .webDevMidBod{
   width: 80%;
   margin: 10vw;
       background-color: #C6DCE4;
+      font-size:1.5rem;
+      display: block;
+}
+
+.webDevMidBodOff{
+display: none;
+}
+
+.skillbar{
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.devBody h3{
+  margin:0 5%;
+
 }
 
 .skills {
@@ -97,4 +146,42 @@ vertical-align: top;
 
 .WDlink h4 a{
   color: black;
+}
+
+.webDevSkillBod button{
+  border-radius: 100%;
+  width: 30vw;
+  height: 14vh;
+  margin: 10%;
+  cursor: pointer;
+}
+
+.webDevSkillBod button:hover{
+  border-radius: 100%;
+  width: 30.3vw;
+  height: 14.3vh;
+  margin: 10%;
+  cursor: pointer;
+}
+
+.toggle-statsBar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+.webdisc {
+
+  margin: auto;
+  text-align: center;
+}
+.webdisc ul,
+.webdisc h2,
+.webdisc h3,
+.webdisc h4,
+.webdisc {
+  list-style: none;
+  margin: auto;
+  text-align: center;
 }

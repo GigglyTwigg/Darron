@@ -3,8 +3,9 @@ import React from "react";
 
 function WebDevHeading(){
 return(<div className="devHeader">
-<div className="devHeaderImg">
-</div>
+<h1 >
+Web Development.
+</h1>
 </div>);
 }
 export default WebDevHeading;
