@@ -1,5 +1,6 @@
 import React from "react";
 import content from "./content";
+import WebSkills from"./WebSkills";
 
 function WebDevSkill(){
 
@@ -24,11 +25,11 @@ let isExpanded = false;
   function ToggleSkillsBtn()
   {
     isExpanded =!isExpanded;
-  if(isExpanded==true)
+  if(isExpanded===true)
    {
     SetToggleButton("webDevMidBod")
    }
-   else if(isExpanded==false)
+   else if(isExpanded===false)
    {
         SetToggleButton("webDevMidBodOff")
    }
@@ -37,57 +38,7 @@ let isExpanded = false;
   return(
     <div className= "webDevSkillBod">
     <div>
-    <div className="webgrid-box">
 
-    <div className="two-images ">
-
-    <div className=" webimgone two-image">
-    <h2>Code</h2>
-    </div>
-
-    <div className="webdisc webdiscOne">
-
-    <h4>Language</h4>
-    <ul>
-    <li>C#/.net</li>
-    <li>JavaScript</li>
-    <li>Python</li>
-    </ul>
-    </div>
-    </div>
-    <div className="two-images ">
-
-    <div className=" webimgone two-image">
-    <h2>UI/UX</h2>
-    </div>
-
-    <div className="webdisc webdiscTwo">
-
-    <h4>UI</h4>
-    <ul>
-    <li>C#/.net</li>
-    <li>JavaScript</li>
-    <li>Python</li>
-    </ul>
-    </div>
-    </div>
-    <div className="two-images ">
-
-    <div className=" webimgone two-image">
-    <h2>Git</h2>
-    </div>
-
-    <div className="webdisc webdiscThree">
-
-    <h4>Version-Ctrl</h4>
-    <ul>
-    <li>C#/.net</li>
-    <li>JavaScript</li>
-    <li>Python</li>
-    </ul>
-    </div>
-    </div>
-  </div>
     <button onClick={ToggleSkillsBtn} > See My States
       <span className="toggle-statsBar "/><span className="toggle-statsBar "/><span className="toggle-statsBar "/><a href="/"></a></ button>
     </div>
@@ -107,8 +58,9 @@ let isExpanded = false;
 <CreateSkillBar skill="Unity" perc="95%" />
 </div>
 <div className="col-md-6  frameworkBod">
-
-    {content[1].lang.map(CreateList)}
+    <div className="webgrid-box">
+    <WebSkills />
+  </div>
       </div>
           </div>
             </div>
